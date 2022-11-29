@@ -9,7 +9,7 @@ export const About = () => {
         About
       </h2>
       <div className="flex flex-col items-center justify-center h-full max-w-6xl mx-auto space-y-10 md:justify-between md:flex-row">
-        <Image src={Assets.Djamboel} />
+        <Image src={Assets.Djamboel} alt="Logo Djamboel" />
         <p className="text-sm text-justify md:text-right text-white md:text-base w-full md:w-[45%]">
           Established in 2015. Djamboel Coffee is a retail coffee entrepreneur
           that serves the best quality coffee for consumers. On the first day of

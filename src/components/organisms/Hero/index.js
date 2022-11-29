@@ -56,13 +56,13 @@ export const Hero = (props) => {
           className="relative flex justify-center md:px-[7rem] px-5 md:right-[0rem] md:top-[1rem]"
         >
           <div className="relative md:w-[17rem] h-full">
-            <Image src={Assets.Berry} />
+            <Image src={Assets.Berry} alt="Berry Milk" />
           </div>
           <div className="relative md:w-[17rem] h-full">
-            <Image src={Assets.Roti} />
+            <Image src={Assets.Roti} alt="Roti Enak" />
           </div>
           <div className="relative md:w-[17rem] h-full">
-            <Image src={Assets.kopiSusu} />
+            <Image src={Assets.kopiSusu} alt="Kopi Susu" />
           </div>
         </Carousel>
       </div>
