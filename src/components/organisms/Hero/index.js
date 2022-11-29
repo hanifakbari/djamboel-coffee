@@ -22,7 +22,7 @@ export const Hero = (props) => {
   return (
     <div className="relative w-full h-screen overflow-hidden bg-black">
       {/* <div className="absolute"> */}
-      <Image src={Assets.Hero} width={800} />
+      <Image src={Assets.Hero} width={800} alt="Image Hero" />
       <div className="absolute top-0 flex flex-col items-center w-full h-screen md:flex-row bg-gradient-to-t from-black to-black/10 md:bg-gradient-to-l md:from-black md:via-black md:to-black-0 ">
         <div className="flex flex-col px-6 py-24 space-y-4 md:px-16">
           <h2 className="text-3xl md:text-5xl font-bold text-[#FFC945]">
