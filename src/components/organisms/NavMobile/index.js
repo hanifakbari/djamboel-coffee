@@ -18,13 +18,13 @@ export const NavMobile = (props) => {
     >
       <div className="flex flex-col px-4 py-3">
         <div className="flex items-center justify-between mb-12">
-          <div className="flex flex-row space-x-2 items-center">
+          <div className="flex flex-row items-center space-x-2">
             <Link href="# ">
               <div className="relative md:w-[3.5rem] w-[3.5rem] h-full flex justify-center items-center">
                 <Image src={Assets.Djamboel} alt="Logo Djamboel" />
               </div>
             </Link>
-            <span className="text-white font-bold text-lg">
+            <span className="text-lg font-bold text-white">
               Djamboel Coffee
             </span>
           </div>
