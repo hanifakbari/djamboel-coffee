@@ -9,10 +9,7 @@ export const Navbar = () => {
   const openPopupMenu = () => setPopupMenuShow(true);
   const closePopupMenu = () => setPopupMenuShow(false);
   return (
-    <div
-      className="nav top-0 fixed z-[100] w-full"
-      style={{ transition: "0.5s" }}
-    >
+    <div className="nav top-0 z-[100] w-full" style={{ transition: "0.5s" }}>
       <div className="block w-full">
         <div className="z-[10] absolute w-full before:-z-[1] before:absolute before:w-full before:h-full bg-transparent transition ring-1 ring-white/0">
           <nav className="flex items-center justify-between w-full max-w-6xl px-4 py-3 mx-auto xl:px-0 md:py-2">
