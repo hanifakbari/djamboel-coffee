@@ -1,7 +1,5 @@
-import { Assets } from "assets";
 import { Hero, About } from "components";
 import React, { Fragment } from "react";
-import Image from "next/image";
 import { NextSeo } from "next-seo";
 
 export default function Home() {
@@ -19,11 +17,11 @@ export default function Home() {
               "Djamboel Coffee akan memberikan suasana yang bersahabat, nyaman dimana pelanggan dapat menerima makanan, layanan dan hiburan berkualitas dengan harga yang wajar.",
             images: [
               {
-                url: "/public/assets/images/litedexConsultant.svg",
+                url: "/public/djamboel.svg",
                 width: 1200,
                 height: 1200,
-                alt: "seoLitedexConsultant",
-                type: "image/jpg",
+                alt: "seoDjamboelCoffee",
+                type: "image/svg",
               },
             ],
             site_name: "Djamboel Coffee",
