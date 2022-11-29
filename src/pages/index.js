@@ -1,6 +1,8 @@
-import { Hero, About } from "components";
+import { Hero, About, Menu, Team } from "components";
 import React, { Fragment } from "react";
 import { NextSeo } from "next-seo";
+import { Assets } from "assets";
+import Image from "next/image";
 
 export default function Home() {
   return (
@@ -36,6 +38,13 @@ export default function Home() {
       <>
         <Hero />
         <About />
+        <div className="w-full h-[280vh] bg-black relative overflow-hidden">
+          <Image src={Assets.Menu} />
+          <div className="absolute top-0 w-full h-full bg-gradient-to-b from-black to-black/50">
+            <Menu />
+            <Team />
+          </div>
+        </div>
       </>
     </Fragment>
   );

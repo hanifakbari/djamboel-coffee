@@ -26,41 +26,35 @@ export const Navbar = () => {
             <div className="flex flex-row space-x-14">
               <ul className="items-center hidden space-x-14 md:flex">
                 <li>
-                  <Link href="# ">
+                  <Link href="#home">
                     <span className="w-full py-3 text-sm font-light text-white  transition  hover:text-[#FFC945]">
                       Home
                     </span>
                   </Link>
                 </li>
                 <li>
-                  <Link href="# ">
-                    <span
-                      href=""
-                      className="flex flex-row items-center justify-center w-full py-3 text-sm text-white  transition  hover:text-[#FFC945] font-light"
-                    >
+                  <Link href="#about">
+                    <span className="flex flex-row items-center justify-center w-full py-3 text-sm text-white  transition  hover:text-[#FFC945] font-light">
                       About
                     </span>
                   </Link>
                 </li>
                 <li>
-                  <Link href="# ">
-                    <span
-                      href=""
-                      className="flex flex-row items-center justify-center w-full py-3 text-sm text-white  transition  hover:text-[#FFC945] font-light"
-                    >
+                  <Link href="#menu">
+                    <span className="flex flex-row items-center justify-center w-full py-3 text-sm text-white  transition  hover:text-[#FFC945] font-light">
                       Menu
                     </span>
                   </Link>
                 </li>
                 <li>
-                  <Link href="# ">
+                  <Link href="#gallery">
                     <span className="w-full py-3 text-sm text-white transition  hover:text-[#FFC945] font-light ">
                       Gallery
                     </span>
                   </Link>
                 </li>
                 <li>
-                  <Link href="# ">
+                  <Link href="#contact">
                     <span className="w-full py-3 text-sm text-white transition  hover:text-[#FFC945] font-body ">
                       Contact Us
                     </span>
