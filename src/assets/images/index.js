@@ -15,3 +15,8 @@ export { default as Raspberry } from "./imgRaspberry.png";
 export { default as KopiRegal } from "./imgKopsusRegal.png";
 export { default as KopiAren } from "./imgKopsusAren.png";
 export { default as CEO } from "./imgCEO.png";
+export { default as Review } from "./imgReview.png";
+export { default as Gallery1 } from "./imgGallery1.png";
+export { default as Gallery2 } from "./imgGallery2.png";
+export { default as Gallery3 } from "./imgGallery3.png";
+export { default as Star } from "./imgStar.png";

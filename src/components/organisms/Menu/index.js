@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export const Menu = () => {
   return (
-    <div id="menu" className="max-w-6xl px-4 py-5 mx-auto transition">
+    <div id="menu" className="max-w-6xl px-4 py-10 mx-auto">
       <h2 className="w-full text-3xl text-center text-white uppercase font-body">
         Our Menu
       </h2>
@@ -19,7 +19,7 @@ export const Menu = () => {
             <div className="relative md:w-[17rem] h-full flex flex-col space-y-6">
               <Image src={Assets.KopiOri} alt="Kopi Susu Ori" />
             </div>
-            <div className="w-[16.75rem] h-[8.5rem] bg-white/10 flex-col flex space-y-2 p-4 rounded-b-2xl">
+            <div className="w-[16.75rem] h-[8.5rem] bg-white/10 backdrop-blur-sm flex-col flex space-y-2 p-4 rounded-b-2xl">
               <h2 className="text-base tracking-wide text-center text-[#FFC945] font-bold">
                 Kopi Susu Ori
               </h2>
@@ -62,7 +62,7 @@ export const Menu = () => {
             <div className="relative md:w-[17rem] h-full flex flex-col space-y-6">
               <Image src={Assets.Raspberry} alt="Raspberry Milk" />
             </div>
-            <div className="w-[16.75rem] h-[8.5rem] bg-black/20 flex-col flex space-y-2 p-4 rounded-b-2xl">
+            <div className="w-[16.75rem] h-[8.5rem] bg-black/20 backdrop-blur-sm flex-col flex space-y-2 p-4 rounded-b-2xl">
               <h2 className="text-base tracking-wide text-center text-[#FFC945] font-bold">
                 Raspberry Lime
               </h2>
