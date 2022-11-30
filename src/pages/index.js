@@ -81,7 +81,7 @@ export default function Home() {
                     </p>
                   </div>
                   <div className="flex flex-row items-center space-x-4">
-                    <span className="bg-[#232323] w-[3.5rem] h-[3.5rem] text-white font-light text-3xl justify-center flex items-center rounded-full">
+                    <span className="bg-[#2e2e2e] w-[3.5rem] h-[3.5rem] text-white font-light text-3xl justify-center flex items-center rounded-full">
                       S
                     </span>
                     <h2 className="text-lg text-white ">Sukma Krisna</h2>
