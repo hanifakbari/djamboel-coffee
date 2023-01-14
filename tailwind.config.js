@@ -9,6 +9,6 @@ module.exports = {
       },
       backgroundImage: {},
     },
-    plugins: [],
+    plugins: [require("preline/plugin")],
   },
 };

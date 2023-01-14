@@ -111,7 +111,65 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="w-full h-screen bg-black"></div>
+        <div className="w-full px-4 h-screen bg-black relative">
+          <div className="py-10 w-full flex flex-col space-y-2 items-center">
+            <h2 className="w-full text-3xl text-center text-white uppercase font-body">
+              Contact us
+            </h2>
+            <p className="text-center text-white w-full md:w-[30%]">
+              <span className="text-sm text-[#FFC945]">You can find me</span>
+              in my studio if you want to take a look at my sculptures, address
+              is via sacra 69, Toulouse, France.
+            </p>
+          </div>
+          <div className="w-full max-w-6xl mx-auto flex justify-between relative overflow-hidden py-10">
+            <div className="flex flex-col space-y-2">
+              <span className="text-white uppercase text-sm font-bold">
+                Visit us
+              </span>
+              <iframe
+                width="500"
+                height="250"
+                src="https://maps.google.com/maps?q=Jl.%20Pasar%20Enjo%20RT.%20006/03%20No.15,%20RT.6/RW.3,%20Pisangan%20Tim.,%20Kec.%20Pulo%20Gadung,%20Kota%20Jakarta%20Timur,%20Daerah%20Khusus%20Ibukota%20Jakarta%2013230&t=&z=15&ie=UTF8&iwloc=&output=embed"
+              ></iframe>
+              <span className="text-white w-full md:w-[75%]">
+                JL. Pasar Enjo RT. 006/03 No.15, RT.6/RW.3, Pisangan Tim., Kec.
+                Pulo Gadung, Kota Jakarta Timur, Daerah Khusus Ibukota Jakarta
+                13230
+              </span>
+            </div>
+            <div className="max-w-lg w-full">
+              <form action="" className="flex flex-col space-y-6">
+                <div className="flex flex-col ">
+                  <label className="text-white">Username</label>
+                  <input
+                    className="w-full h-10 bg-black outline-none border-b-[0.5px] border-b-gray-400 text-white px-2"
+                    type="text"
+                  />
+                </div>
+                <div className="flex flex-col">
+                  <label className="text-white">Email Address</label>
+                  <input
+                    className="w-full h-10 bg-black outline-none border-b-[0.5px] border-b-gray-400 tex"
+                    type="text"
+                  />
+                </div>
+                <div className="flex flex-col ">
+                  <label className="text-white">Message</label>
+                  <input
+                    className=" w-full h-32 bg-black outline-none border-b-[0.5px] border-b-gray-400 text-white px-2"
+                    type="text"
+                  />
+                </div>
+                <div className="w-full items-center justify-center flex bg-[#deac2d] h-10 rounded-sm cursor-pointer hover:bg-[#f5cc64]">
+                  <span className="text-white font-semibold py-4 px-2">
+                    Submit
+                  </span>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
       </>
     </Fragment>
   );
