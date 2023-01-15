@@ -111,8 +111,8 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="w-full px-4 h-screen bg-black relative">
-          <div className="py-10 w-full flex flex-col space-y-2 items-center">
+        <div className="relative w-full h-screen px-4 bg-black">
+          <div className="flex flex-col items-center w-full py-10 space-y-2">
             <h2 className="w-full text-3xl text-center text-white uppercase font-body">
               Contact us
             </h2>
@@ -122,9 +122,9 @@ export default function Home() {
               is via sacra 69, Toulouse, France.
             </p>
           </div>
-          <div className="w-full max-w-6xl mx-auto flex justify-between relative overflow-hidden py-10">
+          <div className="relative flex justify-between w-full max-w-6xl py-10 mx-auto overflow-hidden">
             <div className="flex flex-col space-y-2">
-              <span className="text-white uppercase text-sm font-bold">
+              <span className="text-sm font-bold text-white uppercase">
                 Visit us
               </span>
               <iframe
@@ -138,7 +138,7 @@ export default function Home() {
                 13230
               </span>
             </div>
-            <div className="max-w-lg w-full">
+            <div className="w-full max-w-lg pt-5">
               <form action="" className="flex flex-col space-y-6">
                 <div className="flex flex-col ">
                   <label className="text-white">Username</label>
@@ -162,11 +162,37 @@ export default function Home() {
                   />
                 </div>
                 <div className="w-full items-center justify-center flex bg-[#deac2d] h-10 rounded-sm cursor-pointer hover:bg-[#f5cc64]">
-                  <span className="text-white font-semibold py-4 px-2">
-                    Submit
+                  <span className="px-2 py-4 font-semibold text-white">
+                    Let's Talk!
                   </span>
                 </div>
               </form>
+            </div>
+          </div>
+        </div>
+        <div className="w-full mx-auto bg-black h-[14rem]">
+          <div className="flex items-center justify-between h-full max-w-6xl mx-auto">
+            <div className="flex flex-col space-y-2">
+              <div className="relative md:w-[3.5rem] w-[3.5rem] h-full flex justify-center items-center">
+                <Image src={Assets.Djamboel} alt="Logo Djamboel" />
+              </div>
+              <span className="text-white font-bold">Djamboel Coffee</span>
+              <p className="text-xs text-white w-full md:w-[40%]">
+                Djamboel Coffee will provide a friendly, comfortable atmosphere
+                where the customer can receive quality food, service and
+                entertainment
+              </p>
+            </div>
+            <div className="flex flex-col space-y-2 mt-16">
+              <span className="text-white font-bold">Working Hours</span>
+              <div className="flex flex-col ">
+                <span className="text-white text-sm">
+                  Mon - Fri 09:00 AM - 11.00 PM
+                </span>
+                <span className="text-white text-sm">
+                  Sat - Sun 09:00 AM - 11.00 PM
+                </span>
+              </div>
             </div>
           </div>
         </div>
