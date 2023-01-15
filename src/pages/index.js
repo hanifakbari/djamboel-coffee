@@ -150,7 +150,7 @@ export default function Home() {
                 <div className="flex flex-col">
                   <label className="text-white">Email Address</label>
                   <input
-                    className="w-full h-10 bg-black outline-none border-b-[0.5px] border-b-gray-400 tex"
+                    className="w-full h-10 bg-black outline-none border-b-[0.5px] border-b-gray-400 text-white"
                     type="text"
                   />
                 </div>
