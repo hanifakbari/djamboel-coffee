@@ -35,7 +35,7 @@ export default function Home() {
           }}
         />
       </>
-      <>
+      <div className="container">
         <Hero />
         <About />
         <div className="w-full h-[280vh] bg-black relative overflow-hidden">
@@ -50,18 +50,18 @@ export default function Home() {
         <Contact />
         <div className="w-full mx-auto bg-black h-[14rem]">
           <div className="flex items-center justify-between h-full max-w-6xl mx-auto">
-            <div className="flex flex-col space-y-2">
+            <div className="flex flex-col w-full space-y-2">
               <div className="relative md:w-[3.5rem] w-[3.5rem] h-full flex justify-center items-center">
                 <Image src={Assets.Djamboel} alt="Logo Djamboel" />
               </div>
               <span className="font-bold text-white">Djamboel Coffee</span>
-              <p className="text-xs text-white w-full md:w-[40%]">
+              <p className="w-full text-sm text-white md:w-[60%]">
                 Djamboel Coffee will provide a friendly, comfortable atmosphere
                 where the customer can receive quality food, service and
-                entertainment
+                entertainment at a reasonable price.
               </p>
             </div>
-            <div className="flex flex-col mt-16 space-y-2">
+            <div className="flex flex-col items-end w-full mt-16 space-y-2">
               <span className="font-bold text-white">Working Hours</span>
               <div className="flex flex-col ">
                 <span className="text-sm text-white">
@@ -73,8 +73,14 @@ export default function Home() {
               </div>
             </div>
           </div>
+          <div className="flex flex-col items-center justify-center w-full py-2 bg-black">
+            <h2 className="text-sm text-white ">
+              © 2021. All right reserved - Created by
+            </h2>
+            <span className="text-sm font-bold text-white">Group 4 PPPL</span>
+          </div>
         </div>
-      </>
+      </div>
     </Fragment>
   );
 }

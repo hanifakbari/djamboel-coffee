@@ -41,7 +41,7 @@ export const Contact = () => {
       });
   }
   return (
-    <div className="relative w-full h-screen px-4 bg-black">
+    <div id="contact" className="relative w-full h-screen px-4 bg-black">
       <div className="flex flex-col items-center w-full py-10 space-y-2">
         <h2 className="w-full text-3xl text-center text-white uppercase font-body">
           Contact us
