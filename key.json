@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "djamboelproject",
+  "private_key_id": "1d39ee1aa3a061f6e19391007d43b34b6117c1ea",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDqVjUOFQrSQv7x\nwoC/fnUaIK2gpev5I55ZyD5BWd36fOk3qOQO7pR51A5s76/Fcizoqk47RPIEG4+t\nSC5udJMRfYwjy2Hart6XstYqdBnHIPjYSgTsK26KxzS8oRQE9Q1xo1a+MoSMu64E\nQO5NTJu4FNa9hXyh3o3NjBi8LuBp06L6vWjQC8th9Pz2A/uyN7eKmV82iM5iQIiB\n6gmGrUEcWMDavlHyY5r5zOtVZhklY93dpzMuzWAmQE0qTmaIOXSkHw4dvTcrsGD6\nUCetdN3uJPiwrtM6LVhe7cN30FWoi+kS3Jvq2Gp0jVtIjfWqfbqkEa7Tf/muot/C\nZLBGMwO5AgMBAAECggEAG9uZvQ3VVn+ubTExOxKeezetTG7NKbYJSiUa+YvkbrXQ\nx9QlIH1OW1lRSbQI0lErc5FjcXpVxxU7tF7jXjAvl6G0OkEgZe3p+mDBQxTAR8Ls\nslHCWg0jvA3IgDAqABjdu0eutTeuOEjLfCf37GqSDIU1rhwjX97kPq5L9nsgJJRQ\n/ywdJ3JVgWA+fQVqMGttuztC+DANm0P+QnltV9S7batF4kVQq9ipUh7rIOjfboqA\ni8bXPckgO900G3kRVd41ZnhkyPmHg+98TJhSp4OPIQa35IJxvRFtmes7uVbzLiFm\n1J+zMZclQHdxdyKZl0eQa2MDkuzvcLil+1AO+XRjgQKBgQD/i69V5K7kjSL+T/GM\nylb+Aj6RyK7P1joA7Jxh6lICMikYgqAlh54vsTRaK/g44e8loVfGWneC/UZxyOaC\ne+lneLS5sO4AP++j+7Gee6qjaDSCG8bjFlYkjyOSp22BjA1vmT//IfedrWoetx4h\nEvbckLNvCLEqWmaqwve4qUx00QKBgQDqwN5rIDdQL1p+OrGgGavAgoGRnKyO0V60\nUi8RzPwDdfFfadrZNtgLWBjnY1Nhg9PoXTBXJ7fQcbXO3z9yyYbI5nwyReUMnelH\nIPgAT8heDolr/mdBnLA+P89DOo/1fim74Y7zB0xI9m5SAXL2A0wgYrT/KWP5oQ4m\nNnZSjFP6aQKBgQDI+rwoSpW+TL4j0w3/k7d9SJibIYFTFoJB7dVEMPzUm0y06S84\ntQOVMMIi1QgA/LiQGOemqcnqrHW10bJxFzFHXqiMjnlwmthHWRGluk9G+xKo7V2r\nhgqz8BujIKjARTzf82BgsP9E9HlMtOouSvL6H5fvkJ991uF+FZ6sjgICsQKBgQC0\n0qVAXQteP2t0Cd/iU4PBgIUvVUBxrgJF4XwSORPx0np/JTmG0UDu1Agyy4ZhebrT\npFxk9doXvE7vr3TfBS5GN4t46e+5nTUgLdv52XqcQJRH1ClTF8+F037h6Q0Uav7Y\nkrCasIdpODDYB/e2WenclEuYtBgnI5CTjKXthdv16QKBgH+x9sokgqoDx/Nkws2+\n0waXXgvDjub64g4C1jCMkL3kHmQdtzSW4FY7x/Xfvb0irRMt0znOUZXZGsTgaL6J\nT6AZGf3wti10rc3fWVDx921Uo8uNj43GTeL2P0RJPu1NeChM8c00X92+2YpSTOWa\n3RWpOzByxdwy2o8JHR81UQpq\n-----END PRIVATE KEY-----\n",
+  "client_email": "djamboelcoffee@djamboelproject.iam.gserviceaccount.com",
+  "client_id": "113756970361399234038",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/djamboelcoffee%40djamboelproject.iam.gserviceaccount.com"
+}
