@@ -35,7 +35,7 @@ export default function Home() {
           }}
         />
       </>
-      <div className="container">
+      <>
         <Hero />
         <About />
         <div className="w-full h-[280vh] bg-black relative overflow-hidden">
@@ -80,7 +80,7 @@ export default function Home() {
             <span className="text-sm font-bold text-white">Group 4 PPPL</span>
           </div>
         </div>
-      </div>
+      </>
     </Fragment>
   );
 }

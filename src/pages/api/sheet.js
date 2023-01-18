@@ -31,11 +31,11 @@ async function handler(req, res) {
         values: [[Name, Email, Message]],
       },
     });
-    res
+    return res
       .status(201)
       .json({ message: "Data Successfully entered into google sheets" });
   }
-  res.status(200).json({ message: "Hallo" });
+  return res.status(200).json({ message: "Hallo" });
 }
 
 export default handler;
